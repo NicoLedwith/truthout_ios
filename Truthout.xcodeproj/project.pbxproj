@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037D3B111E3D29C500ED8DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B101E3D29C500ED8DDA /* AppDelegate.swift */; };
+		037D3B131E3D29C500ED8DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B121E3D29C500ED8DDA /* ViewController.swift */; };
+		037D3B161E3D29C500ED8DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B141E3D29C500ED8DDA /* Main.storyboard */; };
+		037D3B181E3D29C500ED8DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B171E3D29C500ED8DDA /* Assets.xcassets */; };
+		037D3B1B1E3D29C500ED8DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B191E3D29C500ED8DDA /* LaunchScreen.storyboard */; };
+		037D3B261E3D29C500ED8DDA /* TruthoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B251E3D29C500ED8DDA /* TruthoutTests.swift */; };
+		037D3B311E3D29C500ED8DDA /* TruthoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B301E3D29C500ED8DDA /* TruthoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037D3B221E3D29C500ED8DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037D3B051E3D29C500ED8DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037D3B0C1E3D29C500ED8DDA;
+			remoteInfo = Truthout;
+		};
+		037D3B2D1E3D29C500ED8DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037D3B051E3D29C500ED8DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037D3B0C1E3D29C500ED8DDA;
+			remoteInfo = Truthout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037D3B0D1E3D29C500ED8DDA /* Truthout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truthout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037D3B101E3D29C500ED8DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		037D3B121E3D29C500ED8DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		037D3B151E3D29C500ED8DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		037D3B171E3D29C500ED8DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037D3B1A1E3D29C500ED8DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		037D3B1C1E3D29C500ED8DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037D3B211E3D29C500ED8DDA /* TruthoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037D3B251E3D29C500ED8DDA /* TruthoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthoutTests.swift; sourceTree = "<group>"; };
+		037D3B271E3D29C500ED8DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037D3B2C1E3D29C500ED8DDA /* TruthoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037D3B301E3D29C500ED8DDA /* TruthoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthoutUITests.swift; sourceTree = "<group>"; };
+		037D3B321E3D29C500ED8DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037D3B0A1E3D29C500ED8DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037D3B1E1E3D29C500ED8DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037D3B291E3D29C500ED8DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037D3B041E3D29C500ED8DDA = {
+			isa = PBXGroup;
+			children = (
+				037D3B0F1E3D29C500ED8DDA /* Truthout */,
+				037D3B241E3D29C500ED8DDA /* TruthoutTests */,
+				037D3B2F1E3D29C500ED8DDA /* TruthoutUITests */,
+				037D3B0E1E3D29C500ED8DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037D3B0E1E3D29C500ED8DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037D3B0D1E3D29C500ED8DDA /* Truthout.app */,
+				037D3B211E3D29C500ED8DDA /* TruthoutTests.xctest */,
+				037D3B2C1E3D29C500ED8DDA /* TruthoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037D3B0F1E3D29C500ED8DDA /* Truthout */ = {
+			isa = PBXGroup;
+			children = (
+				037D3B101E3D29C500ED8DDA /* AppDelegate.swift */,
+				037D3B121E3D29C500ED8DDA /* ViewController.swift */,
+				037D3B141E3D29C500ED8DDA /* Main.storyboard */,
+				037D3B171E3D29C500ED8DDA /* Assets.xcassets */,
+				037D3B191E3D29C500ED8DDA /* LaunchScreen.storyboard */,
+				037D3B1C1E3D29C500ED8DDA /* Info.plist */,
+			);
+			path = Truthout;
+			sourceTree = "<group>";
+		};
+		037D3B241E3D29C500ED8DDA /* TruthoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				037D3B251E3D29C500ED8DDA /* TruthoutTests.swift */,
+				037D3B271E3D29C500ED8DDA /* Info.plist */,
+			);
+			path = TruthoutTests;
+			sourceTree = "<group>";
+		};
+		037D3B2F1E3D29C500ED8DDA /* TruthoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				037D3B301E3D29C500ED8DDA /* TruthoutUITests.swift */,
+				037D3B321E3D29C500ED8DDA /* Info.plist */,
+			);
+			path = TruthoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037D3B0C1E3D29C500ED8DDA /* Truthout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037D3B351E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "Truthout" */;
+			buildPhases = (
+				037D3B091E3D29C500ED8DDA /* Sources */,
+				037D3B0A1E3D29C500ED8DDA /* Frameworks */,
+				037D3B0B1E3D29C500ED8DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Truthout;
+			productName = Truthout;
+			productReference = 037D3B0D1E3D29C500ED8DDA /* Truthout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		037D3B201E3D29C500ED8DDA /* TruthoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037D3B381E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "TruthoutTests" */;
+			buildPhases = (
+				037D3B1D1E3D29C500ED8DDA /* Sources */,
+				037D3B1E1E3D29C500ED8DDA /* Frameworks */,
+				037D3B1F1E3D29C500ED8DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037D3B231E3D29C500ED8DDA /* PBXTargetDependency */,
+			);
+			name = TruthoutTests;
+			productName = TruthoutTests;
+			productReference = 037D3B211E3D29C500ED8DDA /* TruthoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		037D3B2B1E3D29C500ED8DDA /* TruthoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037D3B3B1E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "TruthoutUITests" */;
+			buildPhases = (
+				037D3B281E3D29C500ED8DDA /* Sources */,
+				037D3B291E3D29C500ED8DDA /* Frameworks */,
+				037D3B2A1E3D29C500ED8DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037D3B2E1E3D29C500ED8DDA /* PBXTargetDependency */,
+			);
+			name = TruthoutUITests;
+			productName = TruthoutUITests;
+			productReference = 037D3B2C1E3D29C500ED8DDA /* TruthoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037D3B051E3D29C500ED8DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nico Ledwith";
+				TargetAttributes = {
+					037D3B0C1E3D29C500ED8DDA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					037D3B201E3D29C500ED8DDA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 037D3B0C1E3D29C500ED8DDA;
+					};
+					037D3B2B1E3D29C500ED8DDA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 037D3B0C1E3D29C500ED8DDA;
+					};
+				};
+			};
+			buildConfigurationList = 037D3B081E3D29C500ED8DDA /* Build configuration list for PBXProject "Truthout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037D3B041E3D29C500ED8DDA;
+			productRefGroup = 037D3B0E1E3D29C500ED8DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037D3B0C1E3D29C500ED8DDA /* Truthout */,
+				037D3B201E3D29C500ED8DDA /* TruthoutTests */,
+				037D3B2B1E3D29C500ED8DDA /* TruthoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037D3B0B1E3D29C500ED8DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037D3B1B1E3D29C500ED8DDA /* LaunchScreen.storyboard in Resources */,
+				037D3B181E3D29C500ED8DDA /* Assets.xcassets in Resources */,
+				037D3B161E3D29C500ED8DDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037D3B1F1E3D29C500ED8DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037D3B2A1E3D29C500ED8DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037D3B091E3D29C500ED8DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037D3B131E3D29C500ED8DDA /* ViewController.swift in Sources */,
+				037D3B111E3D29C500ED8DDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037D3B1D1E3D29C500ED8DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037D3B261E3D29C500ED8DDA /* TruthoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037D3B281E3D29C500ED8DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037D3B311E3D29C500ED8DDA /* TruthoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037D3B231E3D29C500ED8DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037D3B0C1E3D29C500ED8DDA /* Truthout */;
+			targetProxy = 037D3B221E3D29C500ED8DDA /* PBXContainerItemProxy */;
+		};
+		037D3B2E1E3D29C500ED8DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037D3B0C1E3D29C500ED8DDA /* Truthout */;
+			targetProxy = 037D3B2D1E3D29C500ED8DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		037D3B141E3D29C500ED8DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037D3B151E3D29C500ED8DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		037D3B191E3D29C500ED8DDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037D3B1A1E3D29C500ED8DDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037D3B331E3D29C500ED8DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037D3B341E3D29C500ED8DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037D3B361E3D29C500ED8DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Truthout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.Truthout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		037D3B371E3D29C500ED8DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Truthout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.Truthout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		037D3B391E3D29C500ED8DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TruthoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.TruthoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truthout.app/Truthout";
+			};
+			name = Debug;
+		};
+		037D3B3A1E3D29C500ED8DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TruthoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.TruthoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truthout.app/Truthout";
+			};
+			name = Release;
+		};
+		037D3B3C1E3D29C500ED8DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TruthoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.TruthoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Truthout;
+			};
+			name = Debug;
+		};
+		037D3B3D1E3D29C500ED8DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TruthoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nico.TruthoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Truthout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037D3B081E3D29C500ED8DDA /* Build configuration list for PBXProject "Truthout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037D3B331E3D29C500ED8DDA /* Debug */,
+				037D3B341E3D29C500ED8DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037D3B351E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "Truthout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037D3B361E3D29C500ED8DDA /* Debug */,
+				037D3B371E3D29C500ED8DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		037D3B381E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "TruthoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037D3B391E3D29C500ED8DDA /* Debug */,
+				037D3B3A1E3D29C500ED8DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		037D3B3B1E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "TruthoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037D3B3C1E3D29C500ED8DDA /* Debug */,
+				037D3B3D1E3D29C500ED8DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037D3B051E3D29C500ED8DDA /* Project object */;
+}
