@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030B01071E87A6CC00A027C3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 030B01061E87A6CC00A027C3 /* Podfile */; };
 		037D3B111E3D29C500ED8DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B101E3D29C500ED8DDA /* AppDelegate.swift */; };
-		037D3B131E3D29C500ED8DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B121E3D29C500ED8DDA /* ViewController.swift */; };
+		037D3B131E3D29C500ED8DDA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B121E3D29C500ED8DDA /* MainVC.swift */; };
 		037D3B161E3D29C500ED8DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B141E3D29C500ED8DDA /* Main.storyboard */; };
 		037D3B181E3D29C500ED8DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B171E3D29C500ED8DDA /* Assets.xcassets */; };
 		037D3B1B1E3D29C500ED8DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B191E3D29C500ED8DDA /* LaunchScreen.storyboard */; };
 		037D3B261E3D29C500ED8DDA /* TruthoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B251E3D29C500ED8DDA /* TruthoutTests.swift */; };
 		037D3B311E3D29C500ED8DDA /* TruthoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B301E3D29C500ED8DDA /* TruthoutUITests.swift */; };
+		037D3B3F1E3D2DFD00ED8DDA /* gradientImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B3E1E3D2DFD00ED8DDA /* gradientImage.swift */; };
+		03EB76B51E8A45C300ADC041 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EB76B41E8A45C300ADC041 /* Article.swift */; };
+		460EFE55230A7C6015EB20B2 /* Pods_Truthout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475166890CFBC90EA171B5FB /* Pods_Truthout.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030B01061E87A6CC00A027C3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		037D3B0D1E3D29C500ED8DDA /* Truthout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truthout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		037D3B101E3D29C500ED8DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		037D3B121E3D29C500ED8DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		037D3B121E3D29C500ED8DDA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		037D3B151E3D29C500ED8DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		037D3B171E3D29C500ED8DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		037D3B1A1E3D29C500ED8DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		037D3B2C1E3D29C500ED8DDA /* TruthoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		037D3B301E3D29C500ED8DDA /* TruthoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthoutUITests.swift; sourceTree = "<group>"; };
 		037D3B321E3D29C500ED8DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037D3B3E1E3D2DFD00ED8DDA /* gradientImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gradientImage.swift; sourceTree = "<group>"; };
+		03EB76B41E8A45C300ADC041 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		475166890CFBC90EA171B5FB /* Pods_Truthout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truthout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8DECF48F2540254E5D4999 /* Pods-Truthout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truthout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Truthout/Pods-Truthout.debug.xcconfig"; sourceTree = "<group>"; };
+		B92A91F25E94EE70427FED5E /* Pods-Truthout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truthout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Truthout/Pods-Truthout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460EFE55230A7C6015EB20B2 /* Pods_Truthout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +88,13 @@
 		037D3B041E3D29C500ED8DDA = {
 			isa = PBXGroup;
 			children = (
+				030B01061E87A6CC00A027C3 /* Podfile */,
 				037D3B0F1E3D29C500ED8DDA /* Truthout */,
 				037D3B241E3D29C500ED8DDA /* TruthoutTests */,
 				037D3B2F1E3D29C500ED8DDA /* TruthoutUITests */,
 				037D3B0E1E3D29C500ED8DDA /* Products */,
+				D0796048BFF2279EBB0071F8 /* Pods */,
+				2075F298B3A8D6D859A2D4E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +111,9 @@
 		037D3B0F1E3D29C500ED8DDA /* Truthout */ = {
 			isa = PBXGroup;
 			children = (
+				03EB76B61E8A4DFF00ADC041 /* View */,
+				03EB76B31E8A45B200ADC041 /* Models */,
 				037D3B101E3D29C500ED8DDA /* AppDelegate.swift */,
-				037D3B121E3D29C500ED8DDA /* ViewController.swift */,
 				037D3B141E3D29C500ED8DDA /* Main.storyboard */,
 				037D3B171E3D29C500ED8DDA /* Assets.xcassets */,
 				037D3B191E3D29C500ED8DDA /* LaunchScreen.storyboard */,
@@ -125,6 +140,40 @@
 			path = TruthoutUITests;
 			sourceTree = "<group>";
 		};
+		03EB76B31E8A45B200ADC041 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03EB76B41E8A45C300ADC041 /* Article.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		03EB76B61E8A4DFF00ADC041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				037D3B121E3D29C500ED8DDA /* MainVC.swift */,
+				037D3B3E1E3D2DFD00ED8DDA /* gradientImage.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2075F298B3A8D6D859A2D4E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				475166890CFBC90EA171B5FB /* Pods_Truthout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0796048BFF2279EBB0071F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C8DECF48F2540254E5D4999 /* Pods-Truthout.debug.xcconfig */,
+				B92A91F25E94EE70427FED5E /* Pods-Truthout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 037D3B351E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "Truthout" */;
 			buildPhases = (
+				B53266856641E80785771E75 /* [CP] Check Pods Manifest.lock */,
 				037D3B091E3D29C500ED8DDA /* Sources */,
 				037D3B0A1E3D29C500ED8DDA /* Frameworks */,
 				037D3B0B1E3D29C500ED8DDA /* Resources */,
+				439B6C54EBC3BDCE40800439 /* [CP] Embed Pods Frameworks */,
+				B0A60C5A4041F00EB929417C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,11 +240,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Nico Ledwith";
 				TargetAttributes = {
 					037D3B0C1E3D29C500ED8DDA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 43TWAZU6H7;
 						ProvisioningStyle = Automatic;
 					};
 					037D3B201E3D29C500ED8DDA = {
@@ -234,6 +287,7 @@
 			files = (
 				037D3B1B1E3D29C500ED8DDA /* LaunchScreen.storyboard in Resources */,
 				037D3B181E3D29C500ED8DDA /* Assets.xcassets in Resources */,
+				030B01071E87A6CC00A027C3 /* Podfile in Resources */,
 				037D3B161E3D29C500ED8DDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +308,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		439B6C54EBC3BDCE40800439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Truthout/Pods-Truthout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A60C5A4041F00EB929417C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Truthout/Pods-Truthout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53266856641E80785771E75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		037D3B091E3D29C500ED8DDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037D3B131E3D29C500ED8DDA /* ViewController.swift in Sources */,
+				03EB76B51E8A45C300ADC041 /* Article.swift in Sources */,
+				037D3B131E3D29C500ED8DDA /* MainVC.swift in Sources */,
 				037D3B111E3D29C500ED8DDA /* AppDelegate.swift in Sources */,
+				037D3B3F1E3D2DFD00ED8DDA /* gradientImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +437,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +488,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,8 +516,10 @@
 		};
 		037D3B361E3D29C500ED8DDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8DECF48F2540254E5D4999 /* Pods-Truthout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43TWAZU6H7;
 				INFOPLIST_FILE = Truthout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nico.Truthout;
@@ -422,8 +530,10 @@
 		};
 		037D3B371E3D29C500ED8DDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92A91F25E94EE70427FED5E /* Pods-Truthout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43TWAZU6H7;
 				INFOPLIST_FILE = Truthout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nico.Truthout;
@@ -505,6 +615,7 @@
 				037D3B371E3D29C500ED8DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		037D3B381E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "TruthoutTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +624,7 @@
 				037D3B3A1E3D29C500ED8DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		037D3B3B1E3D29C500ED8DDA /* Build configuration list for PBXNativeTarget "TruthoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +633,7 @@
 				037D3B3D1E3D29C500ED8DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
