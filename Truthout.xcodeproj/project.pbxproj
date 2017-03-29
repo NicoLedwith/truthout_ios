@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		030B01071E87A6CC00A027C3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 030B01061E87A6CC00A027C3 /* Podfile */; };
+		032A0DDE1E8B70330002C5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B141E3D29C500ED8DDA /* Main.storyboard */; };
+		032A0DE01E8B732B0002C5C4 /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 032A0DDF1E8B732B0002C5C4 /* Alegreya-Regular.ttf */; };
+		0331EA8E1E8B351C00E58AF9 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331EA8D1E8B351C00E58AF9 /* ArticleCell.swift */; };
+		0331EA901E8B3C0800E58AF9 /* DefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331EA8F1E8B3C0800E58AF9 /* DefCell.swift */; };
+		0331EA921E8B657D00E58AF9 /* ArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331EA911E8B657D00E58AF9 /* ArticleVC.swift */; };
 		037D3B111E3D29C500ED8DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B101E3D29C500ED8DDA /* AppDelegate.swift */; };
-		037D3B131E3D29C500ED8DDA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B121E3D29C500ED8DDA /* MainVC.swift */; };
-		037D3B161E3D29C500ED8DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B141E3D29C500ED8DDA /* Main.storyboard */; };
+		037D3B131E3D29C500ED8DDA /* FrontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B121E3D29C500ED8DDA /* FrontVC.swift */; };
 		037D3B181E3D29C500ED8DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B171E3D29C500ED8DDA /* Assets.xcassets */; };
 		037D3B1B1E3D29C500ED8DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037D3B191E3D29C500ED8DDA /* LaunchScreen.storyboard */; };
 		037D3B261E3D29C500ED8DDA /* TruthoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B251E3D29C500ED8DDA /* TruthoutTests.swift */; };
 		037D3B311E3D29C500ED8DDA /* TruthoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B301E3D29C500ED8DDA /* TruthoutUITests.swift */; };
 		037D3B3F1E3D2DFD00ED8DDA /* gradientImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D3B3E1E3D2DFD00ED8DDA /* gradientImage.swift */; };
+		03E0319A1E8AF82600439A19 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 03E031991E8AF82600439A19 /* README.md */; };
+		03E0319E1E8AF88F00439A19 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0319D1E8AF88F00439A19 /* Extensions.swift */; };
+		03E031A01E8AFB2F00439A19 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0319F1E8AFB2F00439A19 /* FeedController.swift */; };
+		03E031A61E8B0C6D00439A19 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E031A51E8B0C6D00439A19 /* ListVC.swift */; };
 		03EB76B51E8A45C300ADC041 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EB76B41E8A45C300ADC041 /* Article.swift */; };
 		460EFE55230A7C6015EB20B2 /* Pods_Truthout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475166890CFBC90EA171B5FB /* Pods_Truthout.framework */; };
 /* End PBXBuildFile section */
@@ -39,9 +47,13 @@
 
 /* Begin PBXFileReference section */
 		030B01061E87A6CC00A027C3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		032A0DDF1E8B732B0002C5C4 /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+		0331EA8D1E8B351C00E58AF9 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		0331EA8F1E8B3C0800E58AF9 /* DefCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefCell.swift; sourceTree = "<group>"; };
+		0331EA911E8B657D00E58AF9 /* ArticleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleVC.swift; sourceTree = "<group>"; };
 		037D3B0D1E3D29C500ED8DDA /* Truthout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Truthout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		037D3B101E3D29C500ED8DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		037D3B121E3D29C500ED8DDA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		037D3B121E3D29C500ED8DDA /* FrontVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontVC.swift; sourceTree = "<group>"; };
 		037D3B151E3D29C500ED8DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		037D3B171E3D29C500ED8DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		037D3B1A1E3D29C500ED8DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +65,10 @@
 		037D3B301E3D29C500ED8DDA /* TruthoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthoutUITests.swift; sourceTree = "<group>"; };
 		037D3B321E3D29C500ED8DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		037D3B3E1E3D2DFD00ED8DDA /* gradientImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gradientImage.swift; sourceTree = "<group>"; };
+		03E031991E8AF82600439A19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		03E0319D1E8AF88F00439A19 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		03E0319F1E8AFB2F00439A19 /* FeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		03E031A51E8B0C6D00439A19 /* ListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		03EB76B41E8A45C300ADC041 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		475166890CFBC90EA171B5FB /* Pods_Truthout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truthout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8DECF48F2540254E5D4999 /* Pods-Truthout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truthout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Truthout/Pods-Truthout.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +104,7 @@
 		037D3B041E3D29C500ED8DDA = {
 			isa = PBXGroup;
 			children = (
+				03E031991E8AF82600439A19 /* README.md */,
 				030B01061E87A6CC00A027C3 /* Podfile */,
 				037D3B0F1E3D29C500ED8DDA /* Truthout */,
 				037D3B241E3D29C500ED8DDA /* TruthoutTests */,
@@ -111,7 +128,10 @@
 		037D3B0F1E3D29C500ED8DDA /* Truthout */ = {
 			isa = PBXGroup;
 			children = (
-				03EB76B61E8A4DFF00ADC041 /* View */,
+				032A0DDF1E8B732B0002C5C4 /* Alegreya-Regular.ttf */,
+				03E0319C1E8AF88000439A19 /* Extensions */,
+				03E0319B1E8AF86300439A19 /* Views */,
+				03EB76B61E8A4DFF00ADC041 /* Controllers */,
 				03EB76B31E8A45B200ADC041 /* Models */,
 				037D3B101E3D29C500ED8DDA /* AppDelegate.swift */,
 				037D3B141E3D29C500ED8DDA /* Main.storyboard */,
@@ -140,21 +160,41 @@
 			path = TruthoutUITests;
 			sourceTree = "<group>";
 		};
+		03E0319B1E8AF86300439A19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				037D3B3E1E3D2DFD00ED8DDA /* gradientImage.swift */,
+				0331EA8F1E8B3C0800E58AF9 /* DefCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		03E0319C1E8AF88000439A19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03E0319D1E8AF88F00439A19 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		03EB76B31E8A45B200ADC041 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				03EB76B41E8A45C300ADC041 /* Article.swift */,
+				0331EA8D1E8B351C00E58AF9 /* ArticleCell.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
 		};
-		03EB76B61E8A4DFF00ADC041 /* View */ = {
+		03EB76B61E8A4DFF00ADC041 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				037D3B121E3D29C500ED8DDA /* MainVC.swift */,
-				037D3B3E1E3D2DFD00ED8DDA /* gradientImage.swift */,
+				03E0319F1E8AFB2F00439A19 /* FeedController.swift */,
+				037D3B121E3D29C500ED8DDA /* FrontVC.swift */,
+				03E031A51E8B0C6D00439A19 /* ListVC.swift */,
+				0331EA911E8B657D00E58AF9 /* ArticleVC.swift */,
 			);
-			name = View;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		2075F298B3A8D6D859A2D4E6 /* Frameworks */ = {
@@ -288,7 +328,8 @@
 				037D3B1B1E3D29C500ED8DDA /* LaunchScreen.storyboard in Resources */,
 				037D3B181E3D29C500ED8DDA /* Assets.xcassets in Resources */,
 				030B01071E87A6CC00A027C3 /* Podfile in Resources */,
-				037D3B161E3D29C500ED8DDA /* Main.storyboard in Resources */,
+				032A0DE01E8B732B0002C5C4 /* Alegreya-Regular.ttf in Resources */,
+				032A0DDE1E8B70330002C5C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,9 +403,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				03EB76B51E8A45C300ADC041 /* Article.swift in Sources */,
-				037D3B131E3D29C500ED8DDA /* MainVC.swift in Sources */,
+				0331EA901E8B3C0800E58AF9 /* DefCell.swift in Sources */,
+				03E0319E1E8AF88F00439A19 /* Extensions.swift in Sources */,
+				0331EA921E8B657D00E58AF9 /* ArticleVC.swift in Sources */,
+				037D3B131E3D29C500ED8DDA /* FrontVC.swift in Sources */,
+				03E0319A1E8AF82600439A19 /* README.md in Sources */,
+				03E031A61E8B0C6D00439A19 /* ListVC.swift in Sources */,
+				0331EA8E1E8B351C00E58AF9 /* ArticleCell.swift in Sources */,
 				037D3B111E3D29C500ED8DDA /* AppDelegate.swift in Sources */,
 				037D3B3F1E3D2DFD00ED8DDA /* gradientImage.swift in Sources */,
+				03E031A01E8AFB2F00439A19 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

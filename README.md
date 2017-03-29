@@ -1,1 +1,1 @@
-truthout app
+# App for Truth-out.org RSS feed
