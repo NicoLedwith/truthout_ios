@@ -25,12 +25,12 @@ class ArticleCell: UITableViewCell {
     }
    
    func updateUI(article: Article) {
-      titleLbl.text = article.title
-      let imgURL = article.imgURL
-      if imgURL == "" {
-         imgView.image = UIImage(named: "to_def_cell_pic")
-      } else {
-         imgView.downloadedFrom(link: imgURL)
+      if (article.hasIamge) {
+         imgView.image = article.image
       }
+      else {
+         imgView.image = UIImage(named: "to_def_cell_pic")
+      }
+      titleLbl.text = article.title
    }
 }

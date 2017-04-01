@@ -10,6 +10,17 @@
         <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Merriweather-Regular.ttf">
+            <string>Merriweather</string>
+        </array>
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--FrontVC-->
         <scene sceneID="tne-QT-ifu">
@@ -28,13 +39,10 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCn-D2-uHD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCn-D2-uHD">
                                 <rect key="frame" x="24" y="497" width="327" height="115"/>
                                 <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="qkd-7v-YS2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -56,7 +64,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2I5-FM-UQ6" secondAttribute="bottom" constant="20" id="TRv-25-FDO"/>
                             <constraint firstItem="d0M-yb-IN4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="agC-rr-RlP"/>
                             <constraint firstItem="fCn-D2-uHD" firstAttribute="centerX" secondItem="2I5-FM-UQ6" secondAttribute="centerX" id="jVL-3S-fHU"/>
-                            <constraint firstItem="fCn-D2-uHD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="477" id="kCQ-kU-iGw"/>
+                            <constraint firstItem="fCn-D2-uHD" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="477" id="kCQ-kU-iGw"/>
                             <constraint firstItem="fCn-D2-uHD" firstAttribute="centerX" secondItem="d0M-yb-IN4" secondAttribute="centerX" id="kno-n0-jSW"/>
                             <constraint firstAttribute="trailing" secondItem="d0M-yb-IN4" secondAttribute="trailing" id="ktI-bA-2Z5"/>
                             <constraint firstItem="2I5-FM-UQ6" firstAttribute="top" secondItem="fCn-D2-uHD" secondAttribute="bottom" constant="6" id="oVP-Z3-STd"/>
@@ -105,14 +113,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="109.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="to_def_cell_pic" translatesAutoresizingMaskIntoConstraints="NO" id="1r3-gr-Mqq" customClass="DefCell" customModule="Truthout" customModuleProvider="target">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="to_def_cell_pic" translatesAutoresizingMaskIntoConstraints="NO" id="1r3-gr-Mqq" customClass="DefCell" customModule="Truthout" customModuleProvider="target">
                                                     <rect key="frame" x="8" y="5" width="100" height="100"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="News News This is some news that truthout produced and now it's on your phone, like that" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyH-0t-NQL">
                                                     <rect key="frame" x="116" y="0.0" width="251" height="110"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -168,7 +176,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wp6-QW-vCf">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2017.28.1_blocker" translatesAutoresizingMaskIntoConstraints="NO" id="JGZ-EK-S5Q">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2017.28.1_blocker" translatesAutoresizingMaskIntoConstraints="NO" id="JGZ-EK-S5Q">
                                                 <rect key="frame" x="8" y="56" width="359" height="216"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="359" id="5fZ-32-Wr8"/>
@@ -183,14 +191,14 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqd-Lq-cct">
-                                                <rect key="frame" x="8" y="293" width="359" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="8" y="293" width="359" height="22"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-wP-EWC">
-                                                <rect key="frame" x="8" y="352" width="359" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-wP-EWC">
+                                                <rect key="frame" x="15" y="346.5" width="345" height="20"/>
+                                                <fontDescription key="fontDescription" name="Merriweather" family="Merriweather" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -202,9 +210,9 @@
                                                     <action selector="backPressed:" destination="eTW-Nx-EXm" eventType="touchUpInside" id="qi5-ea-9rU"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A47-50-KVm">
-                                                <rect key="frame" x="8" y="322" width="359" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A47-50-KVm">
+                                                <rect key="frame" x="8" y="323" width="359" height="14.5"/>
+                                                <fontDescription key="fontDescription" name="Palatino-Italic" family="Palatino" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -212,6 +220,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="CDj-Ej-BQj" firstAttribute="leading" secondItem="wp6-QW-vCf" secondAttribute="leading" id="29X-Tt-Rfn"/>
+                                            <constraint firstItem="Tqd-Lq-cct" firstAttribute="top" secondItem="CDj-Ej-BQj" secondAttribute="bottom" priority="800" constant="8" id="5bX-c6-RLf"/>
                                             <constraint firstItem="Tqd-Lq-cct" firstAttribute="top" secondItem="JGZ-EK-S5Q" secondAttribute="bottom" constant="21" id="9FZ-n7-f5W"/>
                                             <constraint firstAttribute="trailing" secondItem="CDj-Ej-BQj" secondAttribute="trailing" id="ALI-Vw-2IM"/>
                                             <constraint firstItem="CDj-Ej-BQj" firstAttribute="top" secondItem="wp6-QW-vCf" secondAttribute="top" id="ALz-PP-zCw"/>
@@ -220,9 +229,9 @@
                                             <constraint firstItem="A47-50-KVm" firstAttribute="leading" secondItem="wp6-QW-vCf" secondAttribute="leading" constant="8" id="Nuk-H1-Wzu"/>
                                             <constraint firstAttribute="trailing" secondItem="JGZ-EK-S5Q" secondAttribute="trailing" constant="8" id="QL6-Gh-9dq"/>
                                             <constraint firstItem="JGZ-EK-S5Q" firstAttribute="leading" secondItem="wp6-QW-vCf" secondAttribute="leading" constant="8" id="Rnn-Mk-12S"/>
-                                            <constraint firstItem="I5F-wP-EWC" firstAttribute="leading" secondItem="wp6-QW-vCf" secondAttribute="leading" constant="8" id="TOV-lU-ETQ"/>
+                                            <constraint firstItem="I5F-wP-EWC" firstAttribute="leading" secondItem="wp6-QW-vCf" secondAttribute="leading" constant="15" id="TOV-lU-ETQ"/>
                                             <constraint firstAttribute="trailing" secondItem="Tqd-Lq-cct" secondAttribute="trailing" constant="8" id="Tle-zo-czg"/>
-                                            <constraint firstAttribute="trailing" secondItem="I5F-wP-EWC" secondAttribute="trailing" constant="8" id="iWU-eD-KNd"/>
+                                            <constraint firstAttribute="trailing" secondItem="I5F-wP-EWC" secondAttribute="trailing" constant="15" id="iWU-eD-KNd"/>
                                             <constraint firstAttribute="trailing" secondItem="A47-50-KVm" secondAttribute="trailing" constant="8" id="iWn-65-2FD"/>
                                             <constraint firstItem="JGZ-EK-S5Q" firstAttribute="top" secondItem="CDj-Ej-BQj" secondAttribute="bottom" constant="8" id="n7d-qp-sjY"/>
                                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="I5F-wP-EWC" secondAttribute="bottom" constant="20" id="wxT-vm-4Nv"/>
@@ -252,7 +261,7 @@
                         <outlet property="bodyText" destination="I5F-wP-EWC" id="yZf-bj-h01"/>
                         <outlet property="imgView" destination="JGZ-EK-S5Q" id="P19-RM-zST"/>
                         <outlet property="mainView" destination="wp6-QW-vCf" id="s0t-VC-lfv"/>
-                        <outlet property="pudDate" destination="A47-50-KVm" id="utQ-u6-d0p"/>
+                        <outlet property="pubDate" destination="A47-50-KVm" id="qNO-td-EXc"/>
                         <outlet property="titleLbl" destination="Tqd-Lq-cct" id="A8K-Ai-dVD"/>
                     </connections>
                 </viewController>

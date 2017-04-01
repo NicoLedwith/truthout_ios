@@ -11,7 +11,9 @@ import UIKit
 class DefCell: UIImageView {
    
    override func awakeFromNib() {
-      layer.cornerRadius = 10.0
+      /* rounded corners for image */
+      layer.cornerRadius = 15.0
       layer.masksToBounds = true
+      
    }
 }

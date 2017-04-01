@@ -15,12 +15,15 @@ class Article: CustomStringConvertible {
    private var _title: String
    private var _date_published: String
    private var _body: String
-   //others 
+   private var _image: UIImage
+   private var _has_image: Bool
    
-   init(T: String, D: String, B: String) {
-      _title = T
-      _date_published = D
-      _body = B
+   init(Title: String, Date: String, Body: String, Image: UIImage, HasImage: Bool) {
+      _title = Title
+      _date_published = Date
+      _body = Body
+      _image = Image
+      _has_image = HasImage
    }
    
    var title: String {
@@ -39,13 +42,17 @@ class Article: CustomStringConvertible {
       return _body
    }
    
-   var imgURL: String {
-      if let h_body = HTML(html: _body, encoding: .utf8) {
-         if let imgLink = h_body.css("img").first?["src"]! {
-            return imgLink
-         }
+   var image: UIImage {
+      return _image
+   }
+   
+   var hasIamge: Bool {
+      get {
+         return _has_image
       }
-      return ""
+      set {
+         _has_image = newValue
+      }
    }
    
    var description: String {

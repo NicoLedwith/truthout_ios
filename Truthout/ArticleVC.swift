@@ -13,7 +13,7 @@ class ArticleVC: UIViewController {
    @IBOutlet weak var imgView: UIImageView!
    @IBOutlet weak var bodyText: UILabel!
    @IBOutlet weak var titleLbl: UILabel!
-   @IBOutlet weak var pudDate: UILabel!
+   @IBOutlet weak var pubDate: UILabel!
    
    @IBOutlet weak var mainView: UIView!
    
@@ -31,18 +31,26 @@ class ArticleVC: UIViewController {
       }
    }
    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+   override func viewDidLoad() {
+      super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        bodyText.text = _article.body.string
-        titleLbl.text = _article.title
-      
-      if let bodyText = titleLbl.text as NSString? {
-         let s = bodyText.size()
-      }
+      // Do any additional setup after loading the view.
+      populateArticle(article: _article)
     }
 
+   func populateArticle(article: Article) {
+      print(article.body)
+      
+      if (article.hasIamge) {
+         imgView.image = article.image
+      } else {
+        imgView.removeFromSuperview()
+      }
+      bodyText.attributedText = article.body
+      pubDate.text = article.datePublished
+      titleLbl.text = article.title
+   }
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
