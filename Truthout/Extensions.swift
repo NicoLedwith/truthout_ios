@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 extension String {
-   var html2AttributedString: NSAttributedString? {
+   var html2AttributedString: NSMutableAttributedString? {
       guard let data = data(using: .utf8) else { return nil }
       
       do {
-         return try NSAttributedString(data: data, options: [
+         return try NSMutableAttributedString(data: data, options: [
             NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType,
             NSCharacterEncodingDocumentAttribute: String.Encoding.utf8.rawValue,
             ], documentAttributes: nil)

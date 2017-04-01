@@ -41,7 +41,10 @@ class Article: CustomStringConvertible {
    }
    
    var body: NSAttributedString {
-      return _body.html2AttributedString!
+      
+      let text = _body.html2AttributedString!
+      text.addAttributes([NSFontAttributeName: UIFont(name: "Merriweather", size: 17)!], range: NSRange(location: 0, length: text.length))
+      return text
    }
    
    var bodyString: String {
