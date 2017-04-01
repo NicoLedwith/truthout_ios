@@ -30,8 +30,14 @@ class Article: CustomStringConvertible {
       return _title
    }
    
-   var datePublished:String {
-      return _date_published
+   var datePublished: String {
+      
+      let DF = DateFormatter()
+      DF.dateFormat = "EE, dd MMM yyyy HH:mm:ss ZZZZ"
+      let pubDate = DF.date(from: _date_published)
+      
+      return (pubDate?.description)!
+      
    }
    
    var body: NSAttributedString {

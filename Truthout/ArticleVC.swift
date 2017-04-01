@@ -34,12 +34,10 @@ class ArticleVC: UIViewController {
    override func viewDidLoad() {
       super.viewDidLoad()
 
-      // Do any additional setup after loading the view.
       populateArticle(article: _article)
     }
 
    func populateArticle(article: Article) {
-      print(article.body)
       
       if (article.hasIamge) {
          imgView.image = article.image

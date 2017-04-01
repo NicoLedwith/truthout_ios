@@ -130,7 +130,7 @@
                                         <connections>
                                             <outlet property="imgView" destination="1r3-gr-Mqq" id="sUn-mg-2Fa"/>
                                             <outlet property="titleLbl" destination="pyH-0t-NQL" id="A00-EU-pJd"/>
-                                            <segue destination="eTW-Nx-EXm" kind="show" identifier="ArticleVC" id="Cr6-ab-aIi">
+                                            <segue destination="eTW-Nx-EXm" kind="showDetail" identifier="ArticleVC" action="showViewController:sender:" id="Cr6-ab-aIi">
                                                 <segue key="commit" inheritsFrom="parent" id="bQO-Wc-hLJ"/>
                                                 <segue key="preview" inheritsFrom="commit" id="fK9-UP-Wgn"/>
                                             </segue>
@@ -191,36 +191,45 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqd-Lq-cct">
-                                                <rect key="frame" x="8" y="293" width="359" height="22"/>
-                                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
+                                                <rect key="frame" x="8" y="293" width="359" height="24"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-wP-EWC">
-                                                <rect key="frame" x="15" y="346.5" width="345" height="20"/>
-                                                <fontDescription key="fontDescription" name="Merriweather" family="Merriweather" pointSize="16"/>
+                                                <rect key="frame" x="15" y="348.5" width="345" height="22.5"/>
+                                                <fontDescription key="fontDescription" name="Merriweather" family="Merriweather" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfa-e2-13C">
-                                                <rect key="frame" x="21" y="9" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <connections>
-                                                    <action selector="backPressed:" destination="eTW-Nx-EXm" eventType="touchUpInside" id="qi5-ea-9rU"/>
-                                                </connections>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A47-50-KVm">
-                                                <rect key="frame" x="8" y="323" width="359" height="14.5"/>
+                                                <rect key="frame" x="8" y="325" width="359" height="14.5"/>
                                                 <fontDescription key="fontDescription" name="Palatino-Italic" family="Palatino" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qfa-e2-13C">
+                                                <rect key="frame" x="32" y="15" width="36" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="arrow_down">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Back">
+                                                            <attributes>
+                                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="backPressed:" destination="eTW-Nx-EXm" eventType="touchUpInside" id="qi5-ea-9rU"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="CDj-Ej-BQj" firstAttribute="leading" secondItem="wp6-QW-vCf" secondAttribute="leading" id="29X-Tt-Rfn"/>
-                                            <constraint firstItem="Tqd-Lq-cct" firstAttribute="top" secondItem="CDj-Ej-BQj" secondAttribute="bottom" priority="800" constant="8" id="5bX-c6-RLf"/>
+                                            <constraint firstItem="Tqd-Lq-cct" firstAttribute="top" secondItem="CDj-Ej-BQj" secondAttribute="bottom" priority="800" constant="15" id="5bX-c6-RLf"/>
                                             <constraint firstItem="Tqd-Lq-cct" firstAttribute="top" secondItem="JGZ-EK-S5Q" secondAttribute="bottom" constant="21" id="9FZ-n7-f5W"/>
                                             <constraint firstAttribute="trailing" secondItem="CDj-Ej-BQj" secondAttribute="trailing" id="ALI-Vw-2IM"/>
                                             <constraint firstItem="CDj-Ej-BQj" firstAttribute="top" secondItem="wp6-QW-vCf" secondAttribute="top" id="ALz-PP-zCw"/>

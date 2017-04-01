@@ -61,8 +61,7 @@ func removeFirstImage(body: HTMLDocument) -> HTMLDocument {
       print("found first image node")
       body.at_css("div")?.removeChild(body.at_css("p")!)
    }
-   
-   print(body.innerHTML!)
+
    return body
 }
 
